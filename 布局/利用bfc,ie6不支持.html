@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2016 by anonymous (http://jsbin.com/belobonegu/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+<style id="jsbin-css">
+.left{
+  background:deeppink;
+  width:100px;
+  float:left;
+  word-break:break-all;
+  
+}
+.right{
+  background:green;
+  overflow:hidden;/*zoom:-1;*/
+}
+/*等高设置*/
+.parent{
+  overflow:hidden;
+}
+.left,.right{padding-bottom:9999px;margin-bottom:-9999px;}
+</style>
+</head>
+<body>
+  <div class="parent"> 
+    <div class="left">利用bfc,ie6不支持</div> 
+    <div class="right">详细内容很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长</div>
+  </div>
+<script id="jsbin-javascript">
+var js = this;
+console.log(js.alert)
+</script>
+</body>
+</html>
