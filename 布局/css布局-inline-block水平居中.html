@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2016 by anonymous (http://jsbin.com/pavimatiju/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>css布局-inline-block水平居中</title>
+<style id="jsbin-css">
+.parent{
+  text-align:center;
+  width:300px;
+  height:300px;
+  background:deeppink;
+  border-radius:5%;
+  -moz-border-radius:5%;
+  -webkit-border-radius:5%;
+}
+.child{
+  display:inline-block;
+  width:200px;
+  background:#0cc;
+  border-bottom-right-radius:5px;
+  border-bottom-left-radius:5px;
+  -moz-border-bottom-right-radius:5px;
+  -moz-border-bottom-left-radius:5px;
+  -webkit-border-bottom-right-radius:5px;
+  -webkit-border-bottom-left-radius:5px;
+}
+</style>
+</head>
+<body>
+  <div class="parent"><div class="child">原理:block容器默认100%宽度,因此设置为inline-block.缺点:需要父子容器</div></div>
+</body>
+</html>
